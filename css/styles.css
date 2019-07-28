@@ -70,9 +70,18 @@
   background-image: url("../img/farm-2.jpg");
 }
 
-.main_logo {
+/* .main_logo {
   max-height: 300px;
+} This is Jacques code, the below is mine because it was not showing up on my website*/ 
+
+.restaurante-logo {
+  max-height: 300px;
+  margin-left: 500px;
+  background-color: red;
 }
+
+
+
 
 .btn-primary {
   color: #fff;
