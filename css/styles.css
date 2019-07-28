@@ -80,9 +80,6 @@
   background-color: red;
 }
 
-
-
-
 .btn-primary {
   color: #fff;
   background-color: #f8512f;
@@ -189,6 +186,12 @@ btn-primary:hover {
   margin-top: 45px;
   margin-left: 95px;
 }
+
+/* .col-sm-offset-1 {
+  background-position: center;
+  margin-top: 45px;
+  margin-left: 95px;
+} */
 
 
 #our_story p {
