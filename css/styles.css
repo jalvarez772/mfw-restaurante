@@ -251,4 +251,212 @@ font-size: 90px;
   text-shadow: 1px 1px 5px #0a0a0a;
 }
 
+/* Beginning of Menu */
 
+#menu {
+  background-image: url("../img/black_linen.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+#menu h1 {
+  color: #fff;
+  font-family:"Lobster", cursive;
+  font-size: 6em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#menu h3 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+#menu a {
+  color: #f8512f;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#menu p {
+  text-align: justify;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.food {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#menu .nav li a:hover {
+  background-color: #rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+}
+
+#menu .nav-justified li a {
+  margin-bottom: -5px;
+}
+
+#menu .nav-tabs li a {
+  border: none;
+}
+
+/* End of Menu */
+
+/* Begin of Contact */
+
+.contact_form {
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+}
+
+.contact_form form {
+  padding: 5% 0;
+}
+
+.contact_form span {
+  color: white;
+}
+
+#contact {
+  background-color:red;
+}
+
+#contact h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: Black;
+  font-size: 4em;
+}
+
+#contact p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: yellow;
+  font-size: 1em;
+}
+
+#contact_fine_print {
+  font-size: 12px !important;
+  text-align: center;
+}
+
+address {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.contact_bottom {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  background-color: red;
+}
+
+/* End of Contact */
+
+/* Begin footer */
+
+#footer {
+  height: 150px;
+  background-color: white;
+}
+
+.name {
+  margin-top: 65px;
+  background-color: #f8512f;
+  margin-left: 10px;
+}
+
+.fa {
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.fa:hover {
+  color: #1aff1a;
+}
+
+.fa-facebook-f {
+  background: #3B5998;
+  color: black;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background-color: #cb0366;
+  color: #ffffff;
+}
+
+.fa-snapchat {
+  background-color: #fffa01;
+  color: #ffffff;
+  margin-left: 9px;
+}
+
+.low {
+  margin-top: 40px;
+}
+
+#footer a:hover {
+  color: #f8512f;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+/* End footer */
+
+/* @media begins */
+
+@media (max-width:787px){
+  .story_year{
+    font-size: 160px;
+  }
+}
+
+@media (max-width:787px){
+  #our_story{
+    background-color: #ffff99;
+  }
+}
+
+@media (max-width:787px){
+  #our_story h1{
+    color:#008000;
+    background-color: #cccc00;
+  }
+  .styles{
+    color: #ff0066;
+  }
+}
+
+@media (max-width: 787px){
+  #contact{
+    background-color: #660033;
+  }
+  #contact h1{
+    font-family: 'Charm', cursive;
+  }
+}
+
+@media (max-width:787px){
+  #footer{
+    background-color: #00cc99;
+    height: 300px;
+  }
+}
